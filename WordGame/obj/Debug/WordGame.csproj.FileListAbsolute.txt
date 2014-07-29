@@ -1,0 +1,17 @@
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\WordGame.csprojResolveAssemblyReference.cache
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\bin\Debug\WordGame.dll
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\bin\Debug\WordGame.pdb
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\bin\Debug\WordGame.pri
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\WordGame.dll
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\WordGame.pdb
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\priconfig.xml
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\priconfig.xml.intermediate
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\layout.resfiles
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\layout.resfiles.intermediate
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\resources.resfiles
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\resources.resfiles.intermediate
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\pri.resfiles
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\pri.resfiles.intermediate
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\qualifiers.txt
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\qualifiers.txt.intermediate
+c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\obj\Debug\MultipleQualifiersPerDimensionFound.txt

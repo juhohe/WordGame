@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JUHOHE-LAPTOP</Machine>
+    <WindowsUser>JuhoAntti</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>664111f4-8230-4493-b057-edd6a38b4a7f</PackageIdentityName>
+    <IntermediateOutputPath>c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>156BB884753E17A64B2AB0B2F2F9550D3C93A7443F058AC8C7CDDF4088D8D284</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>664111f4-8230-4493-b057-edd6a38b4a7f_1.0.0.0_neutral__bhv3ax8qa801y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>664111f4-8230-4493-b057-edd6a38b4a7f_bhv3ax8qa801y!vstest.executionengine.App</RegisteredUserModeAppID>
+    <RegisteredPackageID>664111f4-8230-4493-b057-edd6a38b4a7f</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=JuhoAntti</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-07-29T19:54:50.226</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\WordGameTests.dll">
+      <PackagePath>WordGameTests.dll</PackagePath>
+      <Modified>2014-07-29T21:00:25.604</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\bin\Debug\WordGame.dll">
+      <PackagePath>WordGame.dll</PackagePath>
+      <Modified>2014-07-29T21:00:03.501</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\WordGameTests.pdb">
+      <PackagePath>WordGameTests.pdb</PackagePath>
+      <Modified>2014-07-29T21:00:25.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\bin\Debug\WordGame.pdb">
+      <PackagePath>WordGame.pdb</PackagePath>
+      <Modified>2014-07-29T21:00:03.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll</PackagePath>
+      <Modified>2013-10-04T23:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll</PackagePath>
+      <Modified>2013-10-04T23:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Core.dll</PackagePath>
+      <Modified>2013-10-04T23:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll</PackagePath>
+      <Modified>2013-10-04T23:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</PackagePath>
+      <Modified>2013-10-04T23:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll</PackagePath>
+      <Modified>2013-10-04T23:38:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Utilities.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Utilities.dll</PackagePath>
+      <Modified>2014-04-30T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.exe">
+      <PackagePath>vstest.executionengine.appcontainer.exe</PackagePath>
+      <Modified>2014-04-30T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.x86.exe">
+      <PackagePath>vstest.executionengine.appcontainer.x86.exe</PackagePath>
+      <Modified>2014-04-30T22:50:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestLogo.scale-100.png">
+      <PackagePath>Images\UnitTestLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T05:01:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestSmallLogo.scale-100.png">
+      <PackagePath>Images\UnitTestSmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T05:01:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestSplashScreen.scale-100.png">
+      <PackagePath>Images\UnitTestSplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T05:01:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestStoreLogo.scale-100.png">
+      <PackagePath>Images\UnitTestStoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-31T05:01:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-07-29T20:54:11.296</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
