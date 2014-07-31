@@ -52,6 +52,16 @@
       <HintPath>..\..\..\..\GitHub\corevoikko\libvoikko\cs\libvoikko\obj\Release\libvoikko.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Voikko\2\mor-morpho\voikko-fi_FI.lex_l" />
+    <None Include="Voikko\2\mor-morpho\voikko-fi_FI.mor_l" />
+    <None Include="Voikko\2\mor-morpho\voikko-fi_FI.pro" />
+    <None Include="Voikko\2\mor-morpho\voikko-fi_FI.sym_l" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Voikko\voikko.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

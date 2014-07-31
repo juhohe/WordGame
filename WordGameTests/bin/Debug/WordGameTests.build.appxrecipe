@@ -74,6 +74,9 @@
       <PackagePath>Images\UnitTestStoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\JuhoAntti\Documents\Visual Studio 2013\Projects\WordGame\WordGame\Voikko\voikko.dll">
+      <PackagePath>WordGame\Voikko\voikko.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\JuhoAntti\Documents\Visual Studio 2013\Projects\WordGame\WordGameTests\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
