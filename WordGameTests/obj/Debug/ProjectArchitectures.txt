@@ -1,0 +1,2 @@
+C:\Users\JuhoAntti\Documents\Visual Studio 2013\Projects\WordGame\WordGame\WordGame.csproj;neutral
+C:\Users\JuhoAntti\Documents\Visual Studio 2013\Projects\WordGame\WordGameTests\WordGameTests.csproj;neutral
