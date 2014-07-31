@@ -56,7 +56,7 @@ namespace WordGame
             //if (!freePositions.Any())
             //{
             //    sb.Append(_grid[position.Y, position.Y]);
-            //    _letterCombinations.Add(sb.ToString());
+            //    _letterCombinations.Add(sb.ToString());ggg
             //}
 
             foreach (IntPoint freePosition in freePositions)
