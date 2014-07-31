@@ -7,25 +7,25 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>664111f4-8230-4493-b057-edd6a38b4a7f</PackageIdentityName>
-    <IntermediateOutputPath>c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGameTests\obj\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\WordGameTests.dll">
+    <AppxPackagedFile Include="C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\WordGameTests.dll">
       <PackagePath>WordGameTests.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\bin\Debug\WordGame.dll">
+    <AppxPackagedFile Include="C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGame\bin\Debug\WordGame.dll">
       <PackagePath>WordGame.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\WordGameTests.pdb">
+    <AppxPackagedFile Include="C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\WordGameTests.pdb">
       <PackagePath>WordGameTests.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\bin\Debug\WordGame.pdb">
+    <AppxPackagedFile Include="C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGame\bin\Debug\WordGame.pdb">
       <PackagePath>WordGame.pdb</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll">
@@ -55,23 +55,23 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.x86.exe">
       <PackagePath>vstest.executionengine.appcontainer.x86.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestLogo.scale-100.png">
       <PackagePath>Images\UnitTestLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestSmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestSmallLogo.scale-100.png">
       <PackagePath>Images\UnitTestSmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestSplashScreen.scale-100.png">
       <PackagePath>Images\UnitTestSplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGameTests\Images\UnitTestStoreLogo.scale-100.png">
       <PackagePath>Images\UnitTestStoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGameTests\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

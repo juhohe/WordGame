@@ -36,26 +36,32 @@ namespace WordGame
             {
                 for (int j = 0; j < height; j++)
                 {
-                    GetLetterCombinationsFromGridPosition(new Point(i, j), new HashSet<Point>(), new StringBuilder());
+                    GetLetterCombinationsFromGridPosition(new IntPoint(i, j), new HashSet<IntPoint>(), new StringBuilder());
                 }
             }
 
             return _letterCombinations;
         }
 
-        private void GetLetterCombinationsFromGridPosition(Point position, HashSet<Point> reservedPositions, StringBuilder sb)
+        private void GetLetterCombinationsFromGridPosition(IntPoint position, HashSet<IntPoint> reservedPositions, StringBuilder sb)
         {
             reservedPositions.Add(position);
 
-            sb.Append(_grid[(int)position.X, (int)position.Y]);
+            sb.Append(_grid[position.X, position.Y]);
 
             _letterCombinations.Add(sb.ToString());
 
-            List<Point> freePositions = _freePositionFinder.GetFreePositions(position, reservedPositions);
+            List<IntPoint> freePositions = _freePositionFinder.GetFreePositions(position, reservedPositions);
 
-            foreach (Point freePosition in freePositions)
+            //if (!freePositions.Any())
+            //{
+            //    sb.Append(_grid[position.Y, position.Y]);
+            //    _letterCombinations.Add(sb.ToString());
+            //}
+
+            foreach (IntPoint freePosition in freePositions)
             {
-                GetLetterCombinationsFromGridPosition(freePosition, new HashSet<Point>(reservedPositions), new StringBuilder(sb.ToString()));
+                GetLetterCombinationsFromGridPosition(freePosition, new HashSet<IntPoint>(reservedPositions), new StringBuilder(sb.ToString()));
             }
         }
     }

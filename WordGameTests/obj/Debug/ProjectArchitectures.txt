@@ -1,2 +1,2 @@
-c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGame\WordGame.csproj;neutral
-c:\Users\juhoantti\documents\visual studio 2013\Projects\WordGame\WordGameTests\WordGameTests.csproj;neutral
+C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGame\WordGame.csproj;neutral
+C:\Users\JuhoAntti\documents\visual studio 2013\Projects\WordGame\WordGameTests\WordGameTests.csproj;neutral

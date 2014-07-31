@@ -16,15 +16,15 @@ namespace WordGame
             _grid = grid;
         }
 
-        public List<Point> GetFreePositions(Point currentPosition, HashSet<Point> reservedPositions)
+        public List<IntPoint> GetFreePositions(IntPoint currentPosition, HashSet<IntPoint> reservedPositions)
         {
-            var freePositions = new List<Point>();
+            var freePositions = new List<IntPoint>();
 
-            for (int a = (int)currentPosition.X - 1; a <= (int)currentPosition.X + 1; a++)
+            for (int a = currentPosition.X - 1; a <= currentPosition.X + 1; a++)
             {
-                for (int b = (int)currentPosition.Y - 1; b <= (int)currentPosition.Y + 1; b++)
+                for (int b = currentPosition.Y - 1; b <= currentPosition.Y + 1; b++)
                 {
-                    var point = new Point(a, b);
+                    var point = new IntPoint(a, b);
                     if ((a >= 0 && a < _grid.GetLength(0)) &&
                         (b >= 0 && b < _grid.GetLength(1)) &&
                         (!reservedPositions.Contains(point)))

@@ -34,6 +34,7 @@ namespace WordGameTests
         }
 
         [TestMethod]
+        // Testing finding automatically all possible letter combinations from the game grid.
         public void TestGetLetterCombinations()
         {
             var gridGenerator = new GameGridGenerator();
