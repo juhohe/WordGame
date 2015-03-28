@@ -1,0 +1,6 @@
+C:\Users\JuhoAntti\Source\Repos\WordGame\WordGameLibrary\bin\Debug\WordGameLibrary.dll
+C:\Users\JuhoAntti\Source\Repos\WordGame\WordGameLibrary\bin\Debug\WordGameLibrary.pdb
+C:\Users\JuhoAntti\Source\Repos\WordGame\WordGameLibrary\bin\Debug\Gma.DataStructures.StringSearch.dll
+C:\Users\JuhoAntti\Source\Repos\WordGame\WordGameLibrary\obj\Debug\WordGameLibrary.dll
+C:\Users\JuhoAntti\Source\Repos\WordGame\WordGameLibrary\obj\Debug\WordGameLibrary.pdb
+C:\Users\JuhoAntti\Source\Repos\WordGame\WordGameLibrary\bin\Debug\kotus-sanalista_v1\kotus-sanalista_v1.xml
