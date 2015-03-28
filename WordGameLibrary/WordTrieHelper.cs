@@ -6,15 +6,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace WordGame
+namespace WordGameLibrary
 {
     public class WordTrieHelper
     {
-        public IEnumerable<string> GetWordsFromKotusXmlWordList()
-        {            
-            XDocument doc = XDocument.Load(@"kotus-sanalista_v1\kotus-sanalista_v1.xml");
+        public ITrie<string> GetTrie()
+        {
+            var xmlWordHelper = new GetXmlFromFileHelper();
 
-            return doc.Descendants("s").Select(s => s.Value);
+            IEnumerable<string> words = xmlWordHelper.GetWordsFromKotusXmlWordList();
+
+            ITrie<string> trie = new Trie<string>();            
+
+            foreach (string word in words)
+            {                
+                trie.Add(word, word);
+            }            
+                
+            return trie;
         }
     }
 }

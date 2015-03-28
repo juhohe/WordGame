@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-//using Microsoft.VisualStudio.TestPlatform.UnitTestFramework;
-using WordGame;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using WordGameLibrary;
+using System.Diagnostics;
 
 namespace WordGameTests
 {
@@ -37,7 +37,7 @@ namespace WordGameTests
         [TestMethod]        
         public void TestGettingWordsFromKotusXmlWordList()
         {
-            var helper = new WordTrieHelper();
+            var helper = new GetXmlFromFileHelper();
 
             int wordCount = 94110;
 
@@ -49,8 +49,27 @@ namespace WordGameTests
         [TestMethod]
         public void TestCreateTrieStructureOfWordList()
         {
-            Assert.Fail();
+            var trieHelper = new WordTrieHelper();
+
+            var trie = trieHelper.GetTrie();
+
+            Assert.IsTrue(trie != null && trie.Retrieve("aamu").Any());
         }
+
+        [TestMethod]
+        public void TestGetWordsFromGrid()
+        {
+            var gridGenerator = new GameGridGenerator();
+
+            char[,] grid = gridGenerator.GenerateGameGrid();
+
+            var gridTraverser = new GridTraverser(grid);
+
+            HashSet<string> foundWords = gridTraverser.FindWordsOnGrid();            
+
+            Assert.IsTrue(foundWords.Any());
+        }
+
         //[TestMethod]
         //// Testing finding automatically all possible letter combinations from the game grid.
         //public void TestGetLetterCombinations()

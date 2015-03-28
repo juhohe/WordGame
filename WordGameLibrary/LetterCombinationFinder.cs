@@ -1,17 +1,17 @@
-﻿using System;
+﻿using Gma.DataStructures.StringSearch;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WordGame
+namespace WordGameLibrary
 {
     public class LetterCombinationFinder
     {
         private char[,] _grid;
         HashSet<string> _letterCombinations;
-
-
+        ITrie<string> _vocabulary;
 
         private FreePositionFinder _freePositionFinder;
 
@@ -19,6 +19,7 @@ namespace WordGame
         {
             _grid = grid;
             _freePositionFinder = new FreePositionFinder(_grid);
+            _vocabulary = new WordTrieHelper().GetTrie();
         }
 
         public HashSet<string> GetLetterCombinations()

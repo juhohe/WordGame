@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGameUnitTests", "WordGameUnitTests\WordGameUnitTests.csproj", "{3A29D933-60C5-4AA1-83E9-887A95BDAD32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGame", "WordGameLibrary\WordGame.csproj", "{E24E04A8-67C7-4FF7-AF51-DF2DD8C6111D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordGameLibrary", "WordGameLibrary\WordGameLibrary.csproj", "{E24E04A8-67C7-4FF7-AF51-DF2DD8C6111D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

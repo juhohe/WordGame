@@ -35,6 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Gma.DataStructures.StringSearch, Version=1.0.1.23496, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WordGameLibrary\lib\Gma.DataStructures.StringSearch.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
   </ItemGroup>
   <Choose>
@@ -54,9 +58,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WordGameLibrary\WordGame.csproj">
+    <ProjectReference Include="..\WordGameLibrary\WordGameLibrary.csproj">
       <Project>{e24e04a8-67c7-4ff7-af51-df2dd8c6111d}</Project>
-      <Name>WordGame</Name>
+      <Name>WordGameLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
